@@ -1,38 +1,76 @@
-# Sales Data Cleaning & Dashboard
+# 📊 Sales Data Cleaning & Dashboard
 
-## Project Overview
+## 📌 Project Overview
 
-This project demonstrates an end-to-end Excel workflow for cleaning, organizing, analyzing, and visualizing sales data.
+This project demonstrates an end-to-end **Excel data cleaning, analysis, and dashboard creation workflow** using a sample sales dataset.
 
-## Work Completed
+The objective was to transform raw and inconsistent sales data into a clean, structured dataset and create an interactive dashboard for quick business analysis.
 
-* Cleaned and standardized customer names, cities, and payment modes
-* Removed duplicate records
+## 🧹 Data Cleaning Performed
+
+The raw dataset contained common data-quality issues that were cleaned using Microsoft Excel.
+
+* Standardized customer names
+* Removed unnecessary spaces using `TRIM`
+* Standardized city names using `PROPER`
+* Standardized payment modes using `UPPER`
 * Handled missing customer information
-* Created summary tables using PivotTables
-* Calculated key sales KPIs
-* Built an interactive sales dashboard
-* Added charts and slicers for easy data exploration
+* Identified and removed duplicate records
+* Converted the dataset into a structured Excel Table
+* Prepared clean data for analysis and reporting
 
-## Key KPIs
+## 📊 Dashboard Features
 
-* Total Sales: ₹355,100
-* Total Orders: 19
-* Total Quantity: 25
-* Average Order Value: ₹18,689.47
+The interactive dashboard includes:
 
-## Tools Used
+* **Total Sales**
+* **Total Orders**
+* **Total Quantity Sold**
+* **Average Order Value**
+* Sales analysis by city
+* Category-wise sales analysis
+* Monthly sales trend
+* Interactive slicers for:
+
+  * City
+  * Category
+  * Payment Mode
+
+## 📈 Key KPIs
+
+| KPI                 |      Value |
+| ------------------- | ---------: |
+| Total Sales         |   ₹355,100 |
+| Total Orders        |         19 |
+| Total Quantity      |         25 |
+| Average Order Value | ₹18,689.47 |
+
+## 🖼️ Dashboard Preview
+
+![Sales Performance Dashboard](Sales_Dashboard_Portfolio.png)
+
+## 🛠️ Tools & Techniques
 
 * Microsoft Excel
+* Excel Formulas
+* Data Cleaning
 * PivotTables
 * PivotCharts
 * Slicers
-* Excel formulas
+* Data Analysis
+* Data Visualization
+* Dashboard Development
 
-## Dashboard
+## 💼 Skills Demonstrated
 
-The dashboard provides a quick view of sales performance through KPIs, charts, and interactive filters.
+**Excel Data Cleaning | Data Analysis | Dashboard Creation | Data Visualization | Business Reporting**
 
-## Skills Demonstrated
+## 📁 Project Files
 
-Excel Data Cleaning | Data Analysis | Dashboard Creation | Data Visualization | Reporting
+* `Sales_Data_Cleaning_Sample.xlsx` — Complete Excel workbook containing raw data, cleaned data, analysis, and dashboard
+* `Sales_Dashboard_Portfolio.png` — Dashboard preview
+* `README.md` — Project documentation
+
+## 🎯 Business Value
+
+This project demonstrates how raw sales data can be transformed into a structured and interactive reporting solution that helps users quickly understand sales performance, product categories, locations, payment methods, and monthly trends.
